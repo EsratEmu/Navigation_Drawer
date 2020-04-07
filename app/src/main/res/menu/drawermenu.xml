@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/main_navmenu_profile"
+            android:title="Profile"
+            android:icon="@drawable/user"/>
+        <item
+            android:id="@+id/main_navmenu_group"
+            android:title="Group"
+            android:icon="@drawable/menu_group"/>
+    </group>
+
+    <item android:title="Bachelor">
+        <menu>
+            <item
+                android:id="@+id/main_navmenu_bmeal"
+                android:title="Bachelor Meal"
+                android:icon="@drawable/menu_bmeal"/>
+
+            <item
+                android:id="@+id/main_navmenu_bchat"
+                android:title="Bachelor Chat"
+                android:icon="@drawable/menu_bchat"/>
+
+            <item
+                android:id="@+id/main_navmenu_btask"
+                android:title="Bachelor Task"
+                android:icon="@drawable/menu_btask"/>
+
+            <item
+                android:id="@+id/main_navmenu_bshop"
+                android:title="Bachelor Shop"
+                android:icon="@drawable/menu_bshop"/>
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/main_navmenu_settings"
+                android:title="Settings"
+                android:icon="@drawable/menu_settings"/>
+
+            <item
+                android:id="@+id/main_navmenu_support"
+                android:title="Support"
+                android:icon="@drawable/menu_support"/>
+
+            <item
+                android:id="@+id/main_navmenu_logout"
+                android:title="Logout"
+                android:icon="@drawable/menu_logout"/>
+        </menu>
+    </item>
+</menu>
